@@ -1,0 +1,22 @@
+body {
+    background-color: antiquewhite;
+    background-image: url("./bilder/DJ-Khaled-Walk-of-Fame.webp");
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    color: rgb(146, 36, 0);
+    font-size: 50px;
+}
+p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a {
+    color: blue;
+}
