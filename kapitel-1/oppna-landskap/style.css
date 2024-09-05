@@ -1,0 +1,25 @@
+body {
+    background-image: url("./bilder/image-24.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    font-family: "Playfair Display", system-ui;
+    width: 200px;
+    color: rgb(218, 215, 215);
+    margin-left: 100px  ;
+}
+p { 
+    font-family: "Playfair Display", system-ui;
+    background-color: rgba(157, 157, 157, 0.295);
+    width: 500px;
+    padding: 20px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+img {
+
+}
+a { 
+
+}
