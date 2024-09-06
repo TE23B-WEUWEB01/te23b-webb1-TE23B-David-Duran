@@ -1,0 +1,28 @@
+body {
+    background-color: antiquewhite;
+}
+table {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    margin: auto;
+}
+caption {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 50px;
+    background-image: url("./bilder/360_F_238084853_mjDe25rGJuhVr4FRKG0aALBSfVgr0Njc.jpg");
+}
+tr {
+
+}
+th {
+    padding: 15px;
+    font-size: 25px;
+}
+td {
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+img {
+    width: 283px;
+}
