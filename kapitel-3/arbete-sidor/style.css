@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Layoutens utseende */
+
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body.sida1{
+    background-image: url("./bilder/shapes-8289322_640.png");
+}
+body.sida2{
+    background-image: url("./bilder/pattern-3296033_640.png");
+}
+body.sida3{
+    background-image: url("./bilder/pandas-6954571_640.jpg");
+}
+body.sida4{
+    background-image: url("./bilder/fruits-6845254_640.jpg");
+}
+body.sida5{
+    background-image: url("./bilder/flowers-6729061_640.jpg");
+}
+body.sida6{
+    background-image: url("./bilder/cosmos-5809271_640.png");
+}
+div {
+    background-color: #fff;
+    width: 500px;
+    border: 5px dashed #555;
+    margin: auto;
+    margin-top: 200px;
+    padding: 30px;
+    font-family: "Handlee", cursive;
+}
+
+/*  */
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+p {
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: darkblue;
+}
