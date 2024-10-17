@@ -1,16 +1,27 @@
+/* Färgpalett */
+:root {
+    /* CSS HEX */
+--barn-red: #780000ff;
+--fire-brick: #c1121fff;
+--papaya-whip: #fdf0d5ff;
+--prussian-blue: #003049ff;
+--air-superiority-blue: #669bbcff;
+}
+
 html {
     box-sizing: border-box;
 }
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
 body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
 /* Layoutens utseende */
 body {
-
+    background-color: #003049ff;
 }
 div.kontainer {
  background-color: darkgreen;

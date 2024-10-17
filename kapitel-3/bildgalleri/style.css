@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: "Quantico", sans-serif;
+    background-color: grey;
+    color: white;
+}
+.kontainer {
+    width: 800px;
+    padding: 40px;
+}
+.box {
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+h1 {
+    font-family: "Orbitron", sans-serif;
+}
+h2 {
+
+}
+p{
+
+}
+img {
+    width: 100%;
+}
