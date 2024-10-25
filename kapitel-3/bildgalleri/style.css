@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     font-family: "Quantico", sans-serif;
     background-color: grey;
@@ -9,21 +22,31 @@ body {
 .kontainer {
     width: 800px;
     padding: 40px;
+    margin: auto;
 }
 .box {
     background-color: black;
     color: white;
     padding: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    gap: 20px;
 }
 h1 {
     font-family: "Orbitron", sans-serif;
+    font-size: 50px;
+    text-align: center;
 }
 h2 {
-
+    font-size: 30px;
+    text-align: center;
 }
 p{
 
 }
 img {
-    width: 100%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
