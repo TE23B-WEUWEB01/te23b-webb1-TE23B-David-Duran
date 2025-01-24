@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -12,20 +15,64 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 /* SIdlayout */
 body {
     background-image: url("./bilder/image-134.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #F3F0DD;
 }
-.kontainer {}
+.kontainer {
+    width: 1000px;
+    margin: auto;
+}
 
 /* Sidhuvud */
 .meny {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    font-family: "Montserrat", serif;
 }
 .meny a {}
-.meny img {}
+.meny img {
+    width: 150px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
 /* Sidinnehåll */
-.sida {}
-.produkter {}
-.rutor {}
-img {}
-p {}
-h2 {}
-a {}
+.sida {
+    background-color: #F9F8F1;
+}
+.produkter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.rutor {
+    text-align: center;
+    padding: 20px;
+    height: 555px;
+}
+.rutor img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+p.text {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "EB Garamond", serif;
+}
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 45px;
+    font-family: "Montserrat", serif;
+}
+p {
+    font-family: "Montserrat", serif;
+}
