@@ -26,11 +26,12 @@ ul {
 
 img {
     width: 100%;
+    
 }
 
 /* sidan */
 body {
-    background-image: url(bilder/crystal-mirallegro-C6GmjaUWmBU-unsplash\ \(3\).jpg)
+    background-image: url(Bilder/jan-kronies-K-x7h4NXtAY-unsplash.jpg);
 }
 
 .kontainer {
@@ -47,23 +48,30 @@ body {
         "sidhuvud sidhuvud"
         "artiklarna sidebar"
         "sidfot sidfot";
+        gap: 20px;
 }
 
 header{
     grid-area: sidhuvud;
-    background-color: rosybrown;
 }
 main{
 grid-area: artiklarna;
-background-color: yellowgreen;
+background-color: white;
+border-radius: 10px;
+padding: 20px;
+
 }
 aside{
     grid-area: sidebar;
-    background-color: magenta;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
 }
 footer{
     grid-area: sidfot;
-    background-color: lightslategray;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 
@@ -83,37 +91,56 @@ header h2 {
 }
 
 /* menyn */
-header nav {}
-
-header nav a {
-    font-size: 25px;
-    color: #fff;
+header nav {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(17,164,30,1) 42%, rgba(14,174,75,1) 60%, rgba(5,199,193,1) 100%);
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
 }
 
-header nav a.aktiv {}
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+}
 
-header nav a.hover {}
+header nav a.aktiv {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(17,164,30,1) 42%, rgba(14,174,75,1) 60%, rgba(5,199,193,1) 100%);
+}
+
+header nav a.hover {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(17,164,30,1) 42%, rgba(14,174,75,1) 60%, rgba(5,199,193,1) 100%);
+}
 
 /* sidans innehåll - artiklar, text mm*/
 main article {}
 
 main article h3 {
     font-size: 50px;
-    color: #fff;
+    color: black;
 }
 
-main article figure {}
+main article figure {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
 
 main article figure img {}
 
 main article figure figcaption {
-    color: #fff;
+    color: #000;
     font-size: 25px;
 }
 
 main article p {
     font-size: 25px;
-    color: #fff;
+    color: #000;
 }
 
 /* sidobar */
